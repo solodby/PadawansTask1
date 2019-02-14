@@ -6,7 +6,7 @@ namespace PadawansTask1
     {
         public static int GetYears(int initialPopulation, double percent, int visitors, int currentPopulation)
         {
-           if (initialPopulation <0 || currentPopulation < 0 )
+           if (initialPopulation <=0 || currentPopulation <= 0 )
             { return 0; }
         
             int Years = 0;
